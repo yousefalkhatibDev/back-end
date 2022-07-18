@@ -17,6 +17,10 @@ app.get("/", (req, res) => {
    res.render("index.ejs")
 })
 
+app.get("/xd", (req, res) => {
+   res.render("xd")
+})
+
 const port = process.env.PORT || 3000
 
 app.listen(port, () => {
